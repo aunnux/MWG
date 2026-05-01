@@ -1,0 +1,661 @@
+<html lang="en-US" dir="ltr" data-ips-path="/" data-ips-scheme="dark"
+	data-ips-scheme-active="dark" data-ips-scheme-default="dark" data-ips-theme="1" data-ips-scheme-toggle="false"
+	data-ips-guest="" data-ips-theme-setting-change-scheme="0" data-ips-theme-setting-link-panels="1"
+	data-ips-theme-setting-nav-bar-icons="0" data-ips-theme-setting-mobile-icons-location="footer"
+	data-ips-theme-setting-mobile-footer-labels="1" data-ips-theme-setting-sticky-sidebar="1"
+	data-ips-theme-setting-flip-sidebar="0" data-ips-layout="default">
+
+<head data-ips-hook="head">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Discord Scam Prevention Guide</title>
+</head>
+<body>
+	<style>
+		/* Global reset and base styles */
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #111827;
+			color: #d1d5db;
+			font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+		}
+
+		a {
+			color: #3b82f6;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</body>
+	<div class="topmc-player-guide-block">
+		<style>
+			/* Scoped styles to protect site layout */
+			.topmc-player-guide-block {
+				font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+				line-height: 1.7;
+				color: #d1d5db;
+				background: #111827;
+				max-width: 950px;
+				margin: 20px auto;
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+				border: 1px solid #374151;
+			}
+
+			.guide-header {
+				background: linear-gradient(135deg, #4c1d95 0%, #7e22ce 50%, #1d4ed8 100%);
+				padding: 40px 30px;
+				border-bottom: 4px solid #fff;
+			}
+
+			.guide-label {
+				display: inline-block;
+				background: #facc15;
+				color: #713f12;
+				padding: 4px 12px;
+				border-radius: 6px;
+				font-size: 0.8rem;
+				font-weight: 800;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				margin-bottom: 15px;
+			}
+
+			.guide-header h1 {
+				font-size: 2.5rem;
+				font-weight: 900;
+				color: #ffffff;
+				margin: 0;
+				line-height: 1.1;
+				text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+			}
+
+			.guide-header .subtitle {
+				font-size: 1.1rem;
+				color: #e9d5ff;
+				margin-top: 10px;
+				font-weight: 500;
+				max-width: 700px;
+			}
+
+			.guide-body {
+				padding: 30px;
+			}
+
+			.guide-section {
+				margin-bottom: 35px;
+			}
+
+			.guide-section h2 {
+				font-size: 1.7rem;
+				color: #60a5fa;
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				margin-bottom: 20px;
+				padding-bottom: 8px;
+				border-bottom: 1px solid #374151;
+			}
+
+			.guide-section h3 {
+				color: #ffffff;
+				font-size: 1.25rem;
+				margin-top: 25px;
+				margin-bottom: 10px;
+			}
+
+			.guide-section p {
+				margin-bottom: 14px;
+			}
+
+			.guide-section ul,
+			.guide-section ol {
+				margin: 12px 0 12px 22px;
+			}
+
+			.guide-section li {
+				margin-bottom: 8px;
+			}
+
+			.info-panel {
+				background: #1f2937;
+				border: 1px solid #374151;
+				border-radius: 8px;
+				padding: 20px;
+				margin: 20px 0;
+			}
+
+			.info-panel-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+				gap: 15px;
+				margin: 20px 0;
+			}
+
+			.info-panel h4 {
+				color: #fca5a5;
+				margin-top: 0;
+				text-transform: uppercase;
+				font-size: 0.95rem;
+				letter-spacing: 0.05em;
+			}
+
+			.danger-box {
+				background: #450a0a;
+				border: 2px dashed #ef4444;
+				color: #fca5a5;
+				padding: 20px;
+				border-radius: 8px;
+				margin: 20px 0;
+			}
+
+			.danger-box strong {
+				color: #fff;
+			}
+
+			.quick-nav {
+				background: rgba(126, 34, 206, 0.1);
+				border: 1px solid #7e22ce;
+				border-radius: 8px;
+				padding: 15px;
+				margin-bottom: 30px;
+			}
+
+			.quick-nav h3 {
+				margin-top: 0;
+				color: #c084fc;
+				font-size: 1rem;
+				text-transform: uppercase;
+			}
+
+			.quick-nav ul {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+				gap: 10px;
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			.quick-nav a {
+				text-decoration: none;
+				color: #a78bfa;
+				font-weight: 600;
+				font-size: 0.95rem;
+				display: block;
+				padding: 8px 12px;
+				background: #1f2937;
+				border-radius: 6px;
+				transition: background 0.2s, color 0.2s;
+				border: 1px solid transparent;
+			}
+
+			.quick-nav a:hover {
+				background: #7e22ce;
+				color: white;
+				border-color: #c084fc;
+			}
+
+			.hardstuck-loop {
+				margin: 25px 0;
+				border-left: 5px solid #ef4444;
+				padding-left: 20px;
+			}
+
+			.loop-stage {
+				background: #1f2937;
+				padding: 15px;
+				border-radius: 8px;
+				margin-bottom: 10px;
+				font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+				display: flex;
+				align-items: center;
+				gap: 15px;
+				border: 1px solid #374151;
+			}
+
+			.stage-badge {
+				background: #ef4444;
+				color: white;
+				min-width: 25px;
+				height: 25px;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: 900;
+				font-family: 'Segoe UI', sans-serif;
+			}
+
+			.stage-price {
+				color: #fbbf24;
+				font-weight: bold;
+			}
+
+			.security-deep-dive {
+				margin-top: 50px;
+				padding: 30px;
+				background: #064e3b;
+				border-top: 4px solid #10b981;
+				border-radius: 8px;
+			}
+
+			.security-deep-dive h2 {
+				color: #ffffff;
+				margin-top: 0;
+				border: 0;
+			}
+
+			.complex-steps {
+				list-style: none;
+				padding: 0;
+				counter-reset: complex-counter;
+			}
+
+			.complex-steps li {
+				counter-increment: complex-counter;
+				position: relative;
+				padding-left: 40px;
+				margin-bottom: 20px;
+			}
+
+			.complex-steps li::before {
+				content: counter(complex-counter);
+				position: absolute;
+				left: 0;
+				top: 0;
+				background: #10b981;
+				color: white;
+				width: 28px;
+				height: 28px;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: bold;
+			}
+
+			.complex-steps strong {
+				color: #6ee7b7;
+				display: block;
+				margin-bottom: 5px;
+			}
+
+			code.tech {
+				background: #000;
+				color: #6ee7b7;
+				padding: 2px 6px;
+				border-radius: 4px;
+				font-family: monospace;
+				font-size: 0.9em;
+			}
+
+			.highlight-line {
+				text-align: center;
+				font-weight: 800;
+				color: #fff;
+				margin-top: 20px;
+				letter-spacing: 0.02em;
+			}
+
+			.mini-warning-list {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+				gap: 12px;
+				margin-top: 18px;
+			}
+
+			.mini-warning-list div {
+				background: #1f2937;
+				border: 1px solid #374151;
+				border-radius: 8px;
+				padding: 12px 14px;
+				font-weight: 600;
+			}
+
+			@media (max-width: 600px) {
+				.guide-header h1 {
+					font-size: 1.8rem;
+				}
+
+				.guide-header {
+					padding: 30px 20px;
+				}
+
+				.quick-nav ul {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+
+		<div class="guide-header">
+			<div class="guide-label">Malware Ignore List</div>
+			<h1>Discord Scam Prevention Guide</h1>
+			<p class="subtitle">A detailed breakdown of the fake MrBeast giveaway, fake live girls servers, crypto
+				traps, QR verification scams, and how users are losing accounts, sessions, and money.</p>
+		</div>
+
+		<div class="guide-body">
+
+			<nav class="quick-nav">
+				<h3>Jump to Section:</h3>
+				<ul>
+					<li><a href="#vector">How Accounts are Compromised</a></li>
+					<li><a href="#types">Common Discord Scam Types</a></li>
+					<li><a href="#session">Why 2FA Does Not Always Save You</a></li>
+					<li><a href="#loop">The Payment Loop</a></li>
+					<li><a href="#protect">How to Not Fall for It</a></li>
+					<li><a href="#fix">What to Do If You Clicked</a></li>
+					<li><a href="#security">Post-Exposure Security Guide</a></li>
+				</ul>
+			</nav>
+
+			<section id="vector" class="guide-section">
+				<h2>How It Starts</h2>
+				<p>Most of these scams do not begin with some elite hacker smashing through your password. They begin
+					with a message that plays on curiosity, greed, panic, or embarrassment.</p>
+				<p>You get a DM from a friend about a MrBeast giveaway, a server invite claiming you can chat with live
+					girls, a fake Nitro drop, a crypto website showing a huge fake balance, or a verification bot that
+					says you need to scan a QR code to unlock channels.</p>
+				<p>The goal is almost always the same: steal your account, steal your money, or get malware onto your
+					device.</p>
+
+				<div class="info-panel-grid">
+					<div class="info-panel">
+						<h4>A | Malware &amp; Stealers</h4>
+						<p>This is the most dangerous vector. Hackers distribute fake mod packs, cracked tools, PvP
+							clients, CPvP cheats, executors, “private utilities,” or random files through
+							Discord DMs, shady servers, and YouTube descriptions.</p>
+						<p>These <code class="tech">.jar</code>, <code class="tech">.exe</code>, script files, or
+							password-locked archives are often information stealers that grab browser sessions, saved
+							passwords, tokens, and payment information.</p>
+					</div>
+					<div class="info-panel">
+						<h4>B | False Verification Bots</h4>
+						<p>Scammers set up fake verification systems in Discord servers and make them look normal. They
+							may tell you to verify your age, unlock channels, complete captcha off-site, authorize an
+							app, or scan a QR code.</p>
+						<p>If you scan the wrong QR code or authorize the wrong application, you can hand the attacker
+							access to your Discord account without ever typing your password into their page.</p>
+					</div>
+				</div>
+
+				<div class="danger-box">
+					<strong>WARNING:</strong> Do not click random links, scan random QR codes, authorize random apps, or
+					download untrusted files online, even if they came from a friend, a mutual, or a server that looks
+					active. Compromised accounts are often used to spread the next wave of scam links.
+				</div>
+			</section>
+
+			<section id="types" class="guide-section">
+				<h2>Common Discord Scam Types Hitting Communities</h2>
+
+				<h3>The MrBeast giveaway scam</h3>
+				<p>This is the classic bait. You are told you won a bonus, a giveaway, a creator drop, or some huge cash
+					reward. The site looks polished, the numbers look real, and the whole thing is built to make you
+					think you are one step away from free money.</p>
+				<p>You are not. The money is fake. The site is fake. The goal is to push you into paying fees or
+					connecting accounts.</p>
+
+				<h3>The “click here to chat with live girls” scam</h3>
+				<p>This one catches a lot of younger users because it mixes curiosity with embarrassment. The server
+					claims there are private channels, verified girls, adult chats, or locked content. Then it tells you
+					to verify, scan a QR code, authorize a bot, or click an outside link to continue.</p>
+				<p>There are no girls waiting for you. The bait exists to steal your Discord session, trick you into
+					authorizing a malicious app, or push malware onto your machine.</p>
+
+				<h3>The crypto balance and fake withdrawal scam</h3>
+				<p>You get linked to a crypto site that says you won Bitcoin, Ethereum, or some other balance. The
+					dashboard shows a big number to make you feel lucky and stupidly rich for five seconds.</p>
+				<p>Then the trap starts. You try to withdraw and suddenly there is a fee, an account issue, a tax
+					problem, an IP mismatch, a wallet sync requirement, or a verification error. Every step is designed
+					to squeeze more money out of you.</p>
+
+				<h3>The QR code login scam</h3>
+				<p>The scammer sends you a QR code and tells you it is for verification, access, giveaway entry, Nitro,
+					or unlocking channels. In reality, they are trying to get you to log them into your account on their
+					device.</p>
+				<p>If you did not personally start a Discord login flow yourself, do not scan the QR code. Ever.</p>
+
+				<h3>The fake bot or app authorization scam</h3>
+				<p>Some servers push you into an external website or Discord app authorization flow that asks for
+					permissions you do not understand. If a bot wants to “join servers for you,” “identify you,” or do
+					other strange things outside basic verification, back out.</p>
+
+				<h3>The malware mod, cheat, client, or tool scam</h3>
+				<p>This one targets Minecraft players directly. The bait might be a private cheat, PvP utility, dupe
+					tool, cracked client, alt manager, account checker, CPS tool, or FPS booster. You run it, and now
+					your Discord, email, browser sessions, and maybe even your payment information are up for grabs.</p>
+			</section>
+
+			<section id="session" class="guide-section">
+				<h2>The Technical Part: Session Hijacking</h2>
+				<p>The core mechanism of many of these scams is <strong>not</strong> simple password theft. It is the
+					theft of your browser sessions, cookies, or active authorization state.</p>
+
+				<div class="info-panel">
+					<h4>Why 2FA Does Not Always Save You</h4>
+					<p>When you log into Discord, Google, Microsoft, or other websites, your device stores active
+						session data so you do not have to type your password and 2FA code every single time you open
+						the browser.</p>
+					<p>If an information stealer grabs those sessions from your browser storage, the attacker may be
+						able to inject or replay them and effectively become you on their own machine. That means 2FA
+						did its job when you logged in, but the attacker may ride the already-approved session
+						afterward.</p>
+					<p style="margin-bottom: 0;"><strong>This is why people sometimes say “I had 2FA on and still got
+							hacked.” They were not always brute-forced. They were often already compromised.</strong>
+					</p>
+				</div>
+
+				<p class="highlight-line">DO NOT TRUST RANDOM DMS. DO NOT BE DESPERATE FOR CASH, GIRLS, CHEATS, OR
+					SECRET TOOLS.</p>
+			</section>
+
+			<section id="loop" class="guide-section">
+				<h2>The Website and the Payment Loop</h2>
+				<p>These scam sites are theater. They are built to look real long enough to make you emotionally commit.
+					Once you think the payout is close, they start farming payments out of you through fake problems and
+					fake support messages.</p>
+
+				<div class="hardstuck-loop">
+					<h3>The hardstuck loop usually looks like this:</h3>
+
+					<div class="loop-stage">
+						<span class="stage-badge">1</span>
+						<span>You “win” money or crypto and try to withdraw it. The site demands a fee for verification,
+							release, identity confirmation, or wallet activation.</span>
+					</div>
+
+					<div class="loop-stage">
+						<span class="stage-badge">2</span>
+						<span>After you pay, a new popup appears with a fake issue like
+							<code>Verification Failed</code>, <code>Invalid Session</code>, or
+							<code>Withdrawal Locked</code>.</span>
+					</div>
+
+					<div class="loop-stage">
+						<span class="stage-badge">3</span>
+						<span>You try again and get hit with a second excuse like <code>Invalid IP</code>,
+							<code>Tax Hold</code>, <code>Wallet Mismatch</code>, or <code>Risk Flag</code>.</span>
+					</div>
+
+					<div class="loop-stage">
+						<span class="stage-badge">4</span>
+						<span>They demand another payment to “fix” it. Once you pay again, they invent another step. The
+							cycle continues until you stop paying or your card gets blocked.</span>
+					</div>
+
+					<p style="margin-top: 15px;">That is the scam. There is no payout waiting on the other side. The
+						fake balance was only there to make you keep feeding the machine.</p>
+				</div>
+
+				<div class="danger-box">
+					<strong>Never pay money to receive money.</strong> Real withdrawals do not require endless emergency
+					fees, random wallet resets, or “one last payment” to unlock your funds.
+				</div>
+			</section>
+
+			<section id="protect" class="guide-section">
+				<h2>How to Not Fall for It</h2>
+				<p>Most of these scams fall apart the second you slow down and ask one basic question: <strong>Why would
+						this be real?</strong></p>
+
+				<div class="mini-warning-list">
+					<div>“You won money” from a stranger</div>
+					<div>“Click here to chat with live girls”</div>
+					<div>“Scan this QR code to verify”</div>
+					<div>“Connect your Discord to continue”</div>
+					<div>“Pay a fee to withdraw”</div>
+					<div>“Download this private tool”</div>
+					<div>“Do not tell anyone”</div>
+					<div>“Act fast before it expires”</div>
+				</div>
+
+				<h3>Basic rules that save accounts</h3>
+				<ul>
+					<li>Do not trust random reward messages, even if they came from a friend. Their account may already
+						be compromised.</li>
+					<li>Do not scan QR codes you did not personally generate.</li>
+					<li>Do not authorize Discord apps you do not fully understand.</li>
+					<li>Do not download random tools, clients, cheats, or packs from DMs.</li>
+					<li>Do not believe anyone who says you must pay to unlock winnings.</li>
+					<li>Do not handle official server matters through random private DMs if the server has a ticket
+						system or public support flow.</li>
+					<li>Use a unique password for Discord and enable 2FA anyway. It still helps against plenty of basic
+						compromises.</li>
+					<li>Keep DMs from random server members limited where possible.</li>
+				</ul>
+			</section>
+
+			<section id="fix" class="guide-section">
+				<h2>What to Do If You Clicked</h2>
+
+				<h3>If you only opened the page</h3>
+				<p>Close it. Do not enter anything. Do not connect Discord. Do not scan anything. Do not download
+					anything. Block the sender and warn staff if the scam is spreading inside a server.</p>
+
+				<h3>If you scanned a QR code</h3>
+				<p>Change your Discord password immediately, review your logged-in devices, remove suspicious authorized
+					apps, and tell friends not to trust recent DMs from your account until you are sure it is secure.
+				</p>
+
+				<h3>If you authorized a suspicious Discord app</h3>
+				<p>Go revoke it immediately. Then change your password and review whether anything strange was sent,
+					joined, or posted from your account.</p>
+
+				<h3>If you sent payment information or money</h3>
+				<p>Contact your bank or card provider immediately, explain it was fraud, and stop sending more money no
+					matter what fake support messages tell you. Screenshot everything while it is still available.</p>
+
+				<h3>If you downloaded and ran a file</h3>
+				<p>Treat the device as compromised. Do not assume changing your password on that same machine fixes
+					everything. If the malware is still there, it can keep stealing fresh sessions and credentials.</p>
+			</section>
+
+			<section id="security" class="security-deep-dive">
+				<h2>Highly Complex Account Security (Post-Exposure)</h2>
+				<p>If you downloaded a suspicious file, gave a shady app account access, or believe your sessions were
+					stolen, basic password resets may not be enough. Follow these steps in order:</p>
+
+				<ul class="complex-steps">
+					<li>
+						<strong>Cut Off the Infected Device</strong>
+						Disconnect the device from the internet if you think malware is active. Do not keep using it for
+						important logins while you are trying to secure your accounts.
+					</li>
+					<li>
+						<strong>Identify and Remove Persistence Mechanisms</strong>
+						Information stealers may place themselves in startup folders, scheduled tasks, services, or
+						registry keys to survive reboots.
+						<ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+							<li>Check <code class="tech">taskmgr</code> and the Startup tab for unknown entries.</li>
+							<li>Review registry keys such as <code
+									class="tech">HKCU\Software\Microsoft\Windows\CurrentVersion\Run</code> and <code
+									class="tech">RunOnce</code>.</li>
+							<li>Look for suspicious scheduled tasks, weird temp folder executables, and unknown
+								background processes.</li>
+							<li>If the system is heavily infected, a full OS reinstall may be the safer route.</li>
+						</ul>
+					</li>
+					<li>
+						<strong>Perform Authorization and Session Revocation</strong>
+						Changing your password is not enough if an attacker still has active sessions or app access.
+						<ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+							<li>In Discord, log out all other sessions and review connected devices.</li>
+							<li>Review <code class="tech">Settings &gt; Authorized Apps</code> and revoke anything you
+								do not fully trust.</li>
+							<li>Repeat this for your main email, Google, Microsoft, and any other important accounts
+								with third-party access.</li>
+						</ul>
+					</li>
+					<li>
+						<strong>Deep Authenticator Reset</strong>
+						If malware accessed your screen, browser vault, or backup codes, your existing 2FA setup may no
+						longer be trustworthy.
+						<ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+							<li>Revoke and re-enable 2FA on your critical accounts.</li>
+							<li>Regenerate backup codes and store them offline somewhere safe.</li>
+						</ul>
+					</li>
+					<li>
+						<strong>Password and Session Cleanup</strong>
+						Do not enter new passwords on a still-infected machine.
+						<ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+							<li>Use a separate clean device like your phone or another trusted computer to change
+								passwords.</li>
+							<li>Prioritize your primary email, Discord, banking, payment services, and any account
+								linked to purchases or identity documents.</li>
+							<li>Clear browser cache, cookies, saved sessions, and stored credentials on the infected
+								device after cleanup.</li>
+						</ul>
+					</li>
+					<li>
+						<strong>Check for Broader Damage</strong>
+						If the stolen machine had saved cards, crypto wallets, saved logins, or personal documents,
+						assume the compromise may extend beyond Discord.
+						<ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+							<li>Monitor your bank and card activity.</li>
+							<li>Review email forwarding rules and recovery methods.</li>
+							<li>Check whether any other accounts suddenly reset passwords or sent messages you did not
+								send.</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+
+			<section class="guide-section">
+				<h2>What Server Owners and Staff Should Tell Members</h2>
+				<p>All communities should not assume Members already know how these scams work. A lot of victims
+					are younger users, embarrassed users, or people who got caught in a panic moment.</p>
+				<div class="info-panel">
+					<h4>Good server safety reminders</h4>
+					<ul style="margin-bottom: 0;">
+						<li>Staff should not DM Members random reward links.</li>
+						<li>Official support should happen in tickets, not shady private DMs.</li>
+						<li>Members should ask before clicking if something feels off.</li>
+						<li>No server should require a weird QR code scan to claim rewards.</li>
+						<li>No legitimate giveaway needs a withdrawal fee.</li>
+					</ul>
+				</div>
+			</section>
+
+			<footer
+				style="margin-top: 50px; text-align: center; color: #6b7280; font-size: 0.9rem; border-top: 1px solid #374151; padding-top: 20px;">
+				<p>This is a guide borrowed from <a href="https://topmcserver.com/guides/discord-scam-guide/" target="_blank">Topmcserver Discord Scam Guide</a>.</p>
+			</footer>
+
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	</section>
+	</body>
+
+</html>
